@@ -41,6 +41,10 @@ li {
   margin: 10px 0;
 }
 
+input, label {
+  cursor: pointer;
+}
+
 input[type="submit"] {
   background-color:rgb(129, 73, 175);
   color: #fff;
@@ -56,6 +60,7 @@ input[type="submit"]:focus {
 
 input[type="submit"].inactive {
   background-color:rgb(88, 49, 121);
+  cursor: default;
 }
 
 p {
