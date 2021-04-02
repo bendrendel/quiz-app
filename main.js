@@ -25,7 +25,7 @@ function runQuiz() {
                 rightAnswers++;
             };
             currentQuestion++;
-            displayForm(currentQuestion);
+            runQuiz(currentQuestion);
         })
     } else {
         const form = results(quizDeck.length, rightAnswers);
